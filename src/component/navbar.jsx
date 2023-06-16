@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 
 const Navbar = () => {
@@ -25,8 +25,7 @@ const Navbar = () => {
         <ul className='hidden md:flex h-full items-center'>
             {links.map(({id,link})=>(
                 <li key={id} className='px-6 cursor-pointer capitalize text-gray-100  hover:text-gray-300 hover:bg-orange-700 h-full items-center'>
-                  <p className='h-full mt-4'>{link}</p>
-                    {/* <Link to={link} smooth duration={400}>{link}</Link> */}
+                    <Link to={link} smooth duration={400}><p className='mt-4'></p>{link}</Link>
                 </li>
             ))}
         </ul>

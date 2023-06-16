@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className='font-poppin'>
         <div className='flex flex-wrap h-96 sm:h-screen bg-white justify-between items-center'>
-            <div className='sm:w-1/2 text-center sm:text-right sm:pr-14 mx-auto my-4 sm:my-0'>
+            <div name="contact us" className='sm:w-1/2 text-center sm:text-right sm:pr-14 mx-auto my-4 sm:my-0'>
                 <h2 className='sm:text-2xl'>for Pricelist & Info</h2>
                 <a href="https://wa.me/6282278984414">
                     <div className='bg-black w-[160px] rounded-full ml-auto mt-2 border-2 border-white hover:bg-white hover:border-2 hover:border-black'>

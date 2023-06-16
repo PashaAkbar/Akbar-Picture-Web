@@ -4,7 +4,7 @@ import img10 from '../assets/img10.JPG';
 
 function About() {
   return (
-    <div className='us text-white'>
+    <div name="about us"  className='us text-white'>
         {/* <h1 className='text-center font-poppin text-4xl pt-8'>About Us</h1> */}
         <div className='flex flex-wrap items-center justify-between h-96 pt-16 font-poppin sm:h-screen'>
             <div className='sm:w-1/2'>

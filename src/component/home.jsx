@@ -21,7 +21,7 @@ import slide_image_10 from '../assets/img10.JPG';
 
 function Home() {
   return (
-    <div className='pt-14 mx-auto bg-black h-96 items-center sm:h-screen'>
+    <div name="home" className='pt-14 mx-auto bg-black h-96 items-center sm:h-screen'>
       <div className=''>
         <h1 className="heading text-white text-center font-click py-5 text-2xl sm:text-4xl">Dikala rasa, Tumbuh bersama.</h1>
         <Swiper
